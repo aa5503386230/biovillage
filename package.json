@@ -1,0 +1,26 @@
+{
+  "name": "biovillage-back",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "dev_test": "vite --mode test",
+    "dev_local": "vite --mode dev",
+    "build": "vue-tsc --noEmit && vite build",
+    "build_test": "vite build --mode test",
+    "build_local": "vite build --mode dev"
+  },
+  "dependencies": {
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.14"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "@vitejs/plugin-vue": "^2.2.0",
+    "@vitejs/plugin-vue-jsx": "^1.3.8",
+    "sass": "^1.49.9",
+    "typescript": "^4.5.4",
+    "vite": "^2.8.0",
+    "vue-tsc": "^0.29.8"
+  }
+}
