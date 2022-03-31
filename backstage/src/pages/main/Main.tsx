@@ -1,5 +1,6 @@
 import { defineComponent } from 'vue';
 import { RouterView } from 'vue-router';
+import { LoginStore } from '../login/Login';
 
 export default defineComponent({
     name: 'Main',
@@ -13,5 +14,8 @@ export default defineComponent({
                 </div>
             </main>
         </div>;
+    },
+    mounted() {
+        LoginStore.aa = 123;
     },
 });
